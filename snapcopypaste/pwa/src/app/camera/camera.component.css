@@ -1,0 +1,17 @@
+
+.preview-image {
+    max-width: 80vw;
+    height: auto;
+}
+
+.result {
+    margin-top: 40px;
+    max-width: 80vw;
+    height: auto;
+}
+
+.btn {
+    border: none;
+    border-radius: 50px;
+    padding: 9px 25px;
+}

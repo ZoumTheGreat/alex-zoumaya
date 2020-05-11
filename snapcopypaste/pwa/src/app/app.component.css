@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&displayhttps://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet=swap" rel="stylesheet');
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: rgba(236, 235, 230, 1);
+}
+
+.header-text {
+    margin-top: 30px;
+}
+
+.menu-links {
+    list-style: none;
+    padding: 10px 30px;
+    float:right;
+}
+
+.menu-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menu-links li a {
+    transition: all 0.3s ease 0s;
+    font-family: "Abril Fatface", sans-serif;
+    color: rgba(66,89,160);
+    font-size: 20px;
+    
+}
+
+.menu-links li a:hover {
+    color: rgba(66,89,160,0.85);
+}
+
+.text-main {
+    font-family: "Abril Fatface", sans-serif;
+    color: rgba(78,70,67);
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.text-secondary {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgba(66,89,160) !important;
+    font-size: 20px;
+    padding-left: 35px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 10px;
+    padding-bottom: 200px;
+    background-color: rgba(236, 235, 230, 1);
+}
+
+.button-main {
+    background-color: rgba(66,89,160,1);
+    color: white;
+    font-size: 20px;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(66,89,160,0.85);
+}
+
+.camera {
+    margin-top: 10px;
+}
+
+.container-content {
+    padding-top: 55px;
+    color: rgba(78,70,67);
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.content-header {
+    text-align: center;
+}
+
+.content-half {
+    padding-top: 10px;
+    width: 50%;
+    float: left;
+}
+
+.content-title {
+    text-align: center;
+}
+
+.demo {
+    background-color: white;
+    padding-top: 55px; 
+    padding-bottom: 85px;
+}
+
+.title {
+    text-align: center;
+    color: rgba(78,70,67);
+    margin-bottom: 25px;
+}
+
+.video {
+    padding-top: 25px;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

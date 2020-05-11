@@ -1,0 +1,66 @@
+<div class="wrapper">
+  <div class="bootstrap-fluid header">
+    <div class="header-text">
+      <span class="text-main">Snap.Copy.Paste.</span>
+      <ul class="menu-links">
+        <li><a href="#about"> About</a></li>
+        <li><a href="#demo"> Demo</a></li>
+      </ul>
+      <br>
+      <span class="text-secondary">The Text Recognition App</span>
+
+    </div>
+
+  </div>
+
+  <div class="container-fluid hero">
+    <button class="btn button-main" label="Click" (click)="toggleCamera()">
+      Snap a Photo
+    </button>
+    <div class="camera" *ngIf="showCamera">
+      <app-camera></app-camera>
+    </div>
+  </div>
+
+  <div class="container-content" id="about">
+    <div class="content-header">
+      <h2>Team 1 - Capstone II - CPS491</h2>
+      <p>Bekah Greczanik, Ajay Patnaik, Alex Zoumaya, Carl Schultz</p>
+      <p>Current Sprint: Sprint 3 (3/4 - 4/6)</p>
+    </div>
+    <div class="content-half">
+      <div class="content-title">
+        <h4>Sponsored by Synchrony Financial</h4>
+      </div>
+      <h5>Mentors</h5>
+      <ul>
+        <li>Joydeep Mukherjee, VP Merchant-Provider Digital Solutions</li>
+        <li>Vish Dadireddy, Senior Leader</li>
+        <li>Ravish Kumar, Senior Leader</li>
+        <li>Sarath Vadakapurapu, Senior Leader</li>
+      </ul>
+    </div>
+    <div class="content-half">
+      <div class="content-title">
+        <h4>Our Project</h4>
+      </div>
+      <p>Developing a full blown Progressive Web Application (PWA) that includes features like connectivity
+        independence, app like interface, push notification, self updates etc.</p>
+      <p>Goal 1: Be able to incorporate and use phone's camera hardware into our PWA</p>
+      <p>Goal 2: Gain access to camera roll and be able to upload pictures to pull text</p>
+      <p>Goal 3: Pull text from photo and copy to clipboard</p>
+      <p>Goal 4: Be able to edit the resulting text</p>
+
+    </div>
+  </div>
+
+  <div class="container-fluid demo" id="demo">
+    <div class="title">
+      <h2> Demo </h2>
+    </div>
+    <div align="center" class="video">
+      <iframe width="720" height="450" src="https://www.youtube.com/embed/SDRlXjOtX7A" frameborder="0" display="block"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>

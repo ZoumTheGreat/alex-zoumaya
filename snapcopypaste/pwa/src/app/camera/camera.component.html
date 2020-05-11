@@ -1,0 +1,30 @@
+<div class="row center">
+  <div class="col">
+    <div class="d-inline-block">
+      <div>
+        <input type="file" id="selectedFile" accept="image/*" style="display: none;" name="image"
+          (change)="processFile($event)" />
+      </div>
+
+      <div style="margin-top:10px" class="image-preview mb-3" *ngIf="previewUrl">
+        <img [src]="previewUrl" height="300" class="preview-image" />
+      </div>
+
+      <div *ngIf="seeResult" class="result">
+        <h2>Result:</h2>
+        <p>{{ status }}</p>
+        <p id="textResult" contenteditable="false">{{ textResult }}</p>
+        <mat-progress-bar *ngIf="seeProgress" mode="determinate" value="{{ progressValue }}"></mat-progress-bar>
+
+        <div style="margin-top:15px">
+          <button style="margin-right: 10px" class="btn btn-light" label="Click" (click)="copyToClipboard()">
+            Copy
+          </button>
+          <button style="margin-left:10px" class="btn btn-light" label="Click" id="editButton" (click)="editText()">
+            Edit
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
