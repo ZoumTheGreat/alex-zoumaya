@@ -8,7 +8,7 @@ Interpy is an interpreter written in Python. The purpose of this project was to 
 Snap Copy Paste was my capstone project at the University of Dayton with help from Synchrony Financial. SCP was built using the Angular TypeScript framework. Although we are very proud of the progress we had made on SCP, COVID-19 hampered our efforts to make the site completely bug-free. As a result, phone cameras do not work on the site yet, but try it out with a screenshot of text!
 <a href='https://snapcopypaste.com' target="_blank"> Try it out here! </a>
 
-# BSC Project
+# Web Runner
 Throughout high school, I worked for a small business called the Bradley Sports Center. Last year I the owner reached out to me about an invoice issue the company was facing and thought my experience could help. After looking into the API of the system they used, I thought it would be best to use Python to automate moving invoices. Thanks to the web runner, what used to take weeks to finish was completed in just a couple of days. Since the company did not have access to the developer API, I had to take a slightly different approach. 
 
 # Tweepy
