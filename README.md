@@ -6,5 +6,5 @@ Interpy is an interpreter written in Python. The purpose of this project was to 
 
 # Snap Copy Paste
 Snap Copy Paste was done apart of my capstone class at the University of Dayton with help from Synchrony Financial. SCP was built using the Angular TypeScript framework. Although we are very proud of the progress we had made on SCP, Covid really hampered our efforts to make the site completely bug free. As a result, phone cameras do not work on the site yet, but try it out with a screenshot of text!
-<a href='https://snapcopypaste.com' target='_blank'> Try it out here! </a>
+<a href='https://snapcopypaste.com' target="_blank"> Try it out here! </a>
  
