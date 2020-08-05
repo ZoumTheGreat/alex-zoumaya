@@ -1,7 +1,0 @@
-#const.py
-#list all constants for twitter API
-
-CONSUMER_KEY = '0hOZRQ7Tjvgl9bSNik8QzOHQV'
-CONSUMER_SECRET = 'kp12hHV2DYaWyYysy05d3t06zJv5Mmf89wQQm1C3iyXHooTl5m'
-ACCESS_TOKEN = '1184128901796155395-UknCvW6tP5pdcXTS6VibvRkn3fzkXz'
-ACCESS_TOKEN_SECRET = 'acjcjD03Iqh9qPIyKlHrB0COgmpTylBRVzo2A30C3oj9h'
